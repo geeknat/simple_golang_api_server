@@ -48,6 +48,9 @@ func (a *App) Run(addr string) {
 
 // initializeRoutes lists all the routes for the API
 func (a *App) initializeRoutes() {
+	// Creates a customer, requires authentication
 	a.Router.HandleFunc("/customer", a.APIAuthenticateMiddleware(a.CreateCustomer)).Methods("POST")
+
+	// Fetches a customer, no authentication required
 	a.Router.HandleFunc("/customer/{id:[0-9]+}", a.FetchCustomer).Methods("GET")
 }
