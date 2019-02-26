@@ -14,6 +14,6 @@ This repo illustrates how to write a simple API server using the powerful Go lan
 After cloning the repo, enter your environment values in the .env file
 and start running tests right away.
 
-Have fun!!!
+Have fun building with Go!!!
 
 
