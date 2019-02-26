@@ -1,8 +1,6 @@
 # Simple GoLang API Server
 
 This repo illustrates how to write a simple API server using the powerful Go language
- - Free software : MIT license
- - Documentation : http://developer.lipisha.com
 
 ##### This API summarizes the following
  - Read/Write capability over API
@@ -18,11 +16,4 @@ and start running tests right away.
 
 Have fun!!!
 
-##### Licence
-
-[MIT](https://choosealicense.com/licenses/mit/)
-
-##### Author
-
-[Geek Nat](http://geeknat.com)
 
